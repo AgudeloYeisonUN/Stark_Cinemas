@@ -1,0 +1,188 @@
+body{ /* Fondo de vista y margen interno de vista */
+    background: url(fondo.png);
+    padding-top: 15px;
+}
+
+#Marco_Pelicula{ /* Recuadro que contiene la información de la película */
+    padding-top: 10px;
+    background-color: black;
+    margin-right: 80px;
+    margin-left:80px;
+    width: 450px;
+    height: 950px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#Title_Dia_Semana{ /* Perform del día de la semana en el que se va a presentar la película */ 
+    color: white;
+    margin-block-end: 2%;
+    margin-block-start: 0%;
+
+    text-align: center;
+    font-family: "Inika";
+    font-size: 48px;
+}
+
+.portada{ /* Tamaño y posicionamiento de la portada de la película */ 
+    width: 400px;
+    height: 570px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.Title_Portada{ /* Perform de los subtítulos de la información de la película */ 
+    margin-left: 25px;
+    color: white;
+    font-family: "Inika";
+    font-size: 20px;
+}
+
+#Formulario{ /* Recuadro que contiene el formulario de reserva */
+    padding-top: 10px;
+    background: #CAC8C8;
+    width: 650px;
+    height: 950px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.Logo{ /* Tamaño y posicionamiento del logo de Stark_Cinemas */ 
+    width: 100px;
+    height: 130px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+#Title_Reserva{ /* Perform del título "Reserva" */ 
+    display: inline;
+    text-align: center;
+
+    font-size: 64px;
+    font-family: 'Bakbak One';
+}
+
+#Title_Nombre{ /* Perform del label "Nombre" */ 
+    font-size: 48px;
+    font-family: 'Bakbak One';
+    margin-top: 45px;
+    margin-left: 60px;
+    color: #1EA4AF;
+    display: inline-block;
+}
+
+.Campo_Nombre{ /* Perform del campo input "Nombre" */ 
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 24px;
+    display: inline-block;
+    margin-inline-start: 45px;
+}
+
+#Title_Apellidos{ /* Perform del label "Apellidos" */ 
+    font-size: 48px;
+    font-family: 'Bakbak One';
+    margin-top: 15px;
+    margin-left: 60px;
+    color: #1EA4AF;
+    display: inline-block;
+}
+
+.Campo_Apellidos{ /* Perform del campo input "Apellidos" */ 
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 24px;
+    display: inline-block;
+    margin-inline-start: 20px;
+}
+
+#Title_Correo{ /* Perform del label "Correo" */ 
+    font-size: 48px;
+    font-family: 'Bakbak One';
+    margin-top: 15px;
+    margin-left: 60px;
+    color: #1EA4AF;
+    display: inline-block;
+}
+
+.Campo_Correo{ /* Perform del campo input "Correo" */ 
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 24px;
+    display: inline-block;
+    margin-inline-start: 75px;
+}
+
+#Title_Telefono{ /* Perform del label "Teléfono" */ 
+    font-size: 48px;
+    font-family: 'Bakbak One';
+    margin-top: 15px;
+    margin-left: 60px;
+    color: #1EA4AF;
+    display: inline-block;
+}
+
+.Campo_Telefono{ /* Perform del campo input "Teléfono" */ 
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 24px;
+    display: inline-block;
+    margin-inline-start: 30px;
+}
+
+#Title_Cuatro{ /* Perform del label del horario 4PM */ 
+    font-family: "Inika";
+    font-size: 36px;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.CBox_Cuatro{ /* Perform del CHECK_BOX del horario 4PM */ 
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+#Title_Seis{ /* Perform del label del horario 6PM */ 
+    font-family: "Inika";
+    font-size: 36px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.CBox_Seis{ /* Perform del CHECK_BOX del horario 6PM */ 
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+#Title_Ocho{ /* Perform del label del horario 8PM */ 
+    font-family: "Inika";
+    font-size: 36px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.CBox_Ocho{ /* Perform del CHECK_BOX del horario 8PM */ 
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+}
+
+#Btt_Reservar{ /* Perform del botón "Reservar" */ 
+    padding: 5px 5px;
+    font-family: 'Bakbak One';
+    color: #FFFFFF;
+    font-size: 42px;   
+    background: #1EA7AF;
+    border-radius: 10px;
+    margin-left: 220px;
+    margin-top: 15px;
+}
