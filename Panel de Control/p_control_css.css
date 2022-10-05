@@ -1,0 +1,244 @@
+body{
+     position: relative;
+     width: 1440px;
+     height: 1024px;   
+     background: url(fondo.png);
+     }
+
+img {position: absolute;
+    width: 114px;
+    height: 103px;
+    left: 100px;
+    top: 13px;}
+
+h2 {font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 90px;
+    text-align: center;
+
+    color: #000000;}
+
+#Btt_Cerses {position: absolute;
+            font-family: 'Bakbak One';
+   	    color: #FFFFFF;
+    	    font-size: 42px;   
+    	    background: #1EA7AF;
+    	    border-radius: 10px;
+   	    left: 1170px;
+  	    top: 145px;	  
+   	    width: 250px;
+	    height: 70px;
+	   }
+
+
+#Label_Logusr {position: absolute;
+            font-family: 'Bakbak One';
+   	    color: #000000;
+    	    font-size: 42px;   
+            background: #D9D9D9;
+    	    border-radius: 10px;
+   	    left: 930px;
+  	    top: 145px;	  
+   	    width: 230px;
+	    height: 70px;
+	   }
+
+h1 {background-color:1EA7AF;
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 96px;
+    line-height: 134px;
+    text-align: center;
+    
+    color: #000000;}
+
+#Marco_Opcion1 {position: absolute;
+                width: 441px;
+                height: 416px;
+                left: 25px;
+                top: 331px;
+
+		background: #D9D9D9;
+		mix-blend-mode: multiply;
+		box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+
+
+#Marco_Opcion2 {position: absolute;
+		width: 441px;
+		height: 416px;
+		left: 499px;
+		top: 331px;
+
+		background: #D9D9D9;
+		mix-blend-mode: multiply;
+		box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+#Marco_Opcion3 {position: absolute;
+		width: 441px;
+		height: 416px;
+		left: 972px;
+		top: 331px;
+
+		background: #D9D9D9;
+		mix-blend-mode: multiply;
+		box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+.Opciones {position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 70px;
+    top: 13px;
+             }
+
+#Btt_Reservas {position: absolute;
+            font-family: 'Bakbak One';
+   	    color: #FFFFFF;
+    	    font-size: 42px;   
+    	    background: #1EA7AF;
+    	    border-radius: 10px;
+   	    left: 80px;
+  	    top: 285px;	  
+   	    width: 289px;
+	    height: 102px;
+	   }
+
+#Btt_Peliculas {position: absolute;
+            font-family: 'Bakbak One';
+   	    color: #FFFFFF;
+    	    font-size: 42px;   
+    	    background: #1EA7AF;
+    	    border-radius: 10px;
+   	    left: 80px;
+  	    top: 285px;	  
+   	    width: 289px;
+	    height: 102px;
+	   }
+#Btt_Usuarios {position: absolute;
+            font-family: 'Bakbak One';
+   	    color: #FFFFFF;
+    	    font-size: 42px;   
+    	    background: #1EA7AF;
+    	    border-radius: 10px;
+   	    left: 80px;
+  	    top: 285px;	  
+   	    width: 289px;
+	    height: 102px;
+	   }
+
+#Btt_Salir {position: absolute;
+            font-family: 'Bakbak One';
+   	    color: #FFFFFF;
+    	    font-size: 42px;   
+    	    background: #1EA7AF;
+    	    border-radius: 10px;
+   	    margin-left: 220px;
+  	    margin-top: 15px;	  
+   	    width: 289px;
+	    height: 102px;
+	    left: 355px;
+	    top: 758px;
+	    }
+
+
+.bt_image {position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 10px;
+    top: 70px;
+    
+    background: url(add_movie.jpg);;
+    border-radius: 10px}
+
+.info_movie {position: absolute;
+    width: 391px;
+    left: 100px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-size: 24px;
+    color: #9e9e9e;
+    
+    background: black;
+    border-color: #000000;}
+
+.sip_movie {position: absolute;
+    width: 391px;
+    height: 100px;
+    left: 100px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-size: 24px;
+    text-align-last: left;
+    resize: none;
+    color: #9e9e9e;
+        
+    background: black;
+    border-color: #000000;}
+
+.dias {position: absolute;
+    width: 150px;
+    height: 31px;
+    top: 180px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    
+    color: #FFFFFF;}
+
+.cb_agregar_dia {position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 130px;
+    
+    background: #FFFBFB;
+    border: 1px solid #000000;}
+
+.bt_agregar {position: absolute; 
+    width: 220px;
+    height: 76px;
+    left: 230px;
+
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;  
+    color: white;
+    
+    background: #1EA7AF;
+    border-radius: 5px;}
+
+.tickets {position: absolute;
+    width: 200px;
+    height: 62px;
+    top: 180px;
+    left: 230px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    text-align: center;}
+
+.tb_ntickets {position: absolute;
+    width: 150px;
+    height: 31px;
+    top: 80px;
+    left: 25px;
+    
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    text-align: center;}
+

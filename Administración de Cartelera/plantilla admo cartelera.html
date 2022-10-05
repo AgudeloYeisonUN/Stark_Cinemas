@@ -1,0 +1,114 @@
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="admo_cartelera_css.css" />
+   <title>Administracion de cartelera</title>
+</head>
+<body>
+
+   <img src="logo.png"
+   alt="logo">
+
+   <h1>STARK CINEMAS</h1>
+
+   <h2>Administracion de cartelera</h2>
+   
+   <div>
+      Martes
+      <br>
+      Miercoles
+      <br>
+      Jueves
+      <br>
+      Viernes
+      <br>
+      Sabado
+      <br>
+      Domingo
+
+      <div>
+
+         <input type="button" class="bt_edit" value="Editar">
+         <label>¿Visible?<input type="checkbox" class="cb_visible" name="cb_visible_m"></label>
+         <br>
+
+         <input type="button" class="bt_edit" value="Editar">
+         <label>¿Visible?<input type="checkbox" class="cb_visible" name="cb_visible_x"></label>
+         <br>
+
+         <input type="button" class="bt_edit" value="Editar">
+         <label>¿Visible?<input type="checkbox" class="cb_visible" name="cb_visible_j"></label>
+         <br>
+ 
+         <input type="button" class="bt_edit" value="Editar">
+         <label>¿Visible?<input type="checkbox" class="cb_visible" name="cb_visible_v"></label>
+         <br>
+
+       
+         <input type="button" class="bt_edit" value="Editar">
+         <label>¿Visible?<input type="checkbox" class="cb_visible" name="cb_visible_s"></label>
+         <br>
+
+ 
+         <input type="button" class="bt_edit" value="Editar">
+         <label>¿Visible?<input type="checkbox" class="cb_visible" name="cb_visible_d"></label>
+         <br>
+      
+      </div>
+
+   </div> 
+
+   <form>
+
+      <input type="text" name= "new_movie" class="new_movie" value="Nueva pelicula"/>
+      <br>
+      <input type="button" class="bt_image" value=" ">
+      <br>
+
+   <p>
+
+      Titulo: <input type="text" class="info_movie" name="title"/>
+      <br>
+      Genero: <input type="text" class="info_movie" name="gender"/>
+      <br>
+      Duracion: <input type="text" class="info_movie" name="time"/>
+      <br>
+      Sipnosis: <textarea name="comentario" rows="5" cols="50" class="sip_movie"></textarea>
+
+      <br>
+
+   <span class="dias">
+       
+      <label>Martes<input type="checkbox" class="cb_agregar_dia" name="cb_agregar_m"></label>
+      <br>
+
+      <label>Miercoles<input type="checkbox" class="cb_agregar_dia" name="cb_agregar_x"></label>
+      <br>
+
+      <label>Jueves<input type="checkbox" class="cb_agregar_dia" name="cb_agregar_j"></label>
+      <br>
+
+      <label>Viernes<input type="checkbox" class="cb_agregar_dia" name="cb_agregar_v"></label>
+      <br>
+
+      <label>Sabado<input type="checkbox" class="cb_agregar_dia" name="cb_agregar_s"></label>
+      <br>
+
+      <label>Domingo<input type="checkbox" class="cb_agregar_dia" name="cb_agregar_d"></label>
+
+      <input type="button" class="bt_agregar" value="Agregar">
+      
+   </span>
+
+   <span class="tickets">  
+
+   Cupo maximo de tiquetes: <input type="text" class="tb_ntickets" name="ntickets"/>
+   
+   </span>
+
+   </p>
+
+   </form>
+
+</body>
+
+<html>

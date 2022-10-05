@@ -1,0 +1,213 @@
+body{position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(fondo.jpeg);}
+
+img {position: absolute;
+    width: 114px;
+    height: 103px;
+    left: 100px;
+    top: 13px;}
+
+h1 {background-color:1EA7AF;
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 134px;
+    text-align: center;
+    
+    color: #000000;}
+
+h2 {font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 90px;
+    text-align: center;
+
+    color: #000000;}
+
+div {font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    
+    color: #000000;}
+
+div div {font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    
+    position: absolute;
+    top: 340px;
+    left: 410px;
+        
+    color: #000000;}
+
+form {position: absolute;
+    width: 521px;
+    height: 826px;
+    left: 820px;
+    top: 319px;
+    
+    background: black;
+    border-radius: 15px;}
+
+p {font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+
+    position: absolute;
+    top: 370px;
+    left: 10px;
+    
+    color: #FFFFFF;}
+
+.bt_edit {position: absolute;
+    width: 155px;
+    height: 56px;
+    left: -175px;
+
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;  
+    color: white;
+    
+    background: #1EA7AF;
+    border-radius: 5px;}
+
+.cb_visible{position: absolute;
+    width: 68px;
+    height: 61px;
+    
+    background: #FFFBFB;
+    border: 1px solid #000000;}
+
+    .txt_visible{left: 500px;}
+
+.new_movie{position: absolute;
+    width: 391px;
+    height: 80px;
+    left: 65px;
+    top: 0px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    background: black;
+    border-color: #000000;}
+
+.bt_image {position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 10px;
+    top: 70px;
+    
+    background: url(add_movie.jpg);;
+    border-radius: 10px}
+
+.info_movie {position: absolute;
+    width: 391px;
+    left: 100px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-size: 24px;
+    color: #9e9e9e;
+    
+    background: black;
+    border-color: #000000;}
+
+.sip_movie {position: absolute;
+    width: 391px;
+    height: 100px;
+    left: 100px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-size: 24px;
+    text-align-last: left;
+    resize: none;
+    color: #9e9e9e;
+        
+    background: black;
+    border-color: #000000;}
+
+.dias {position: absolute;
+    width: 150px;
+    height: 31px;
+    top: 180px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    
+    color: #FFFFFF;}
+
+.cb_agregar_dia {position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 130px;
+    
+    background: #FFFBFB;
+    border: 1px solid #000000;}
+
+.bt_agregar {position: absolute; 
+    width: 220px;
+    height: 76px;
+    left: 230px;
+
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;  
+    color: white;
+    
+    background: #1EA7AF;
+    border-radius: 5px;}
+
+.tickets {position: absolute;
+    width: 200px;
+    height: 62px;
+    top: 180px;
+    left: 230px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    text-align: center;}
+
+.tb_ntickets {position: absolute;
+    width: 150px;
+    height: 31px;
+    top: 80px;
+    left: 25px;
+    
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    text-align: center;}
+

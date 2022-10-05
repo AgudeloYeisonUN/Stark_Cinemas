@@ -1,0 +1,141 @@
+body{
+     background: url(fondo.png);
+     }
+
+img {position: absolute;
+    width: 114px;
+    height: 130px;
+    left: 100px;
+    top: 13px;}
+
+h2 {font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 90px;
+    text-align: center;
+
+    color: #000000;}
+
+.cal{
+  font-family: 'Bakbak One';
+  font-size: 48px;
+  text-align: center;
+  color: #000000;
+}
+
+#Btt_Cerses {position: absolute;
+            font-family: 'Bakbak One';
+   	    color: #FFFFFF;
+    	    font-size: 32px;   
+    	    background: #1EA7AF;
+    	    border-radius: 10px;
+   	    left: 1070px;
+  	    top: 160px;	  
+   	    width: 250px;
+	    height: 70px;
+	   }
+
+
+h1 {background-color:1EA7AF;
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 96px;
+    line-height: 134px;
+    text-align: center;
+    
+    color: #000000;}
+
+#Marco_Pelicula {position: absolute;
+		 width: 420px;
+		 height: 541px;
+		 left: 50px;
+		 top: 250px;}
+
+#form_calificacion {position: absolute;
+       width: 700px;
+       height: 850px;
+       left: 650px;
+       }
+
+input[type="radio"] {
+  display: none;
+  
+}
+
+label {
+  color: grey;
+  font-size: 96px;
+  
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+  
+}
+
+.form_estrellas {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  position: absolute;
+  margin: 0%;
+  margin-left: 150px;
+}
+
+#Btt_Calificar {position: absolute;
+            font-family: 'Bakbak One';
+   	    color: #FFFFFF;
+    	    font-size: 42px;   
+    	    background: #1EA7AF;
+    	    border-radius: 10px;
+   	    left: 859px;
+  	    top: 941px;	  
+   	    width: 289px;
+	    height: 102px;
+	   }
+
+#opi{
+  font-family: 'Inika';
+  font-style: normal;
+  margin: 20px;
+  font-size: 28px;
+  line-height: 46px;
+  color: black;
+  resize: none;
+  position: absolute;
+  top: 370px;
+  left: 10px;
+  background: fixed;
+  mix-blend-mode: luminosity;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+}
+
+.Img_Pelicula {position: absolute;
+    	       width: 420px;
+	       height: 541px;
+	       left: 80px;
+	       top: 1px;
+    
+               background: url(PulpfictionC1.jpg);
+                }
+
+#Info {position: absolute;
+    margin: 0%;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+    margin-top: 550px;
+
+}
+
+

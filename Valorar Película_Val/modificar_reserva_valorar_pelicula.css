@@ -1,0 +1,75 @@
+body{position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(fondo.jpeg);}
+
+form{position: absolute;
+    width: 721px;
+    height: 926px;
+    left: 359px;
+    top: 49px;
+    
+    background: #CAC8C8;
+    border-radius: 15px;}
+
+img{position: absolute;
+    width: 199px;
+    height: 232px;
+    left: 50px;
+    top: 106px;}
+
+h1 {position: absolute;
+    width: 404px;
+    height: 117px;
+    left: 250px;
+    top: 144px;
+    
+    font-family: Bakbak One;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 90px;
+    text-align: center;
+
+    color: #000000;}
+
+h2 {position: absolute;
+    width: 529px;
+    height: 67px;
+    left: 100px;
+    top: 425px;
+    
+    font-family: Bakbak One;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    
+    color: #1EA4AF;}
+
+.bar_mreserva {position: absolute;
+    width: 391px;
+    height: 80px;
+    left: 175px;
+    top: 602px;
+    
+    background: #FBF4F4;
+    border-radius: 5px;}
+
+.bt_mvalidar {position: absolute;
+    width: 289px;
+    height: 102px;
+    left: 230px;
+    top: 738px;
+
+    font-family: 'Bakbak One';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    
+    background: #1EA7AF;
+    border-radius: 10px}
